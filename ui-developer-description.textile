@@ -18,7 +18,8 @@ h3. You fit these ideal points
 * Solid communicator, student and teacher; loves to learn and share knowledge
 * You're passionate and positive, self-starting, and a perfectionist who's comfortable with deadlines
 * Someone who enjoys learning new programming languages or editors
-* Familiarity with web frameworks, Django expertise desired
+* Familiarity with emerging web trends (HTML5, CSS3, responsive design, node.js, etc)
+* Django expertise desired, understanding of web frameworks required
 * Contribution to an open-source project (code, documentation, or advocacy) huge bonus
 
 h3. Primary responsibilities
