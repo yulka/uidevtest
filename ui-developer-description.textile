@@ -20,6 +20,7 @@ h3. You fit these ideal points
 * Someone who enjoys learning new programming languages or editors
 * Familiarity with emerging web trends (HTML5, CSS3, responsive design, node.js, etc)
 * Django expertise desired, understanding of web frameworks required
+* Familiarity with mustache templates
 * Contribution to an open-source project (code, documentation, or advocacy) huge bonus
 
 h3. Primary responsibilities
