@@ -6,7 +6,7 @@ This is a UI Developer hiring competency test designed to gauge skill, code comp
 
 h3. What are the rules?
 
-Please read the INSTRUCTIONS.txt file and follow the specifications and requirements therein.
+Please read the INSTRUCTIONS.textile file and follow the specifications and requirements therein.
 
 h3. How should I deliver my completed test?
 
