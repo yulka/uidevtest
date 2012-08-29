@@ -148,12 +148,22 @@ h1 {
 p {
   margin-bottom: 12px;
 }
+a {
+  color: #cc6600;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff8000;
+}
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 30px;
   background: #fff;
+}
+header.main {
+  margin-bottom: 20px;
 }
 section.article {
   padding-left: 169px;
@@ -171,4 +181,32 @@ section.article .sidebar {
   width: 169px;
   right: 189px;
   margin-left: -100%;
+}
+.breadcrumb {
+  margin: 0 0 10px -5px;
+  font-size: 13px;
+}
+.breadcrumb li {
+  display: inline;
+}
+.breadcrumb li a {
+  padding: 3px 5px;
+}
+.main-content header.meta {
+  color: #666666;
+  border-bottom: 1px dotted #333;
+  margin-bottom: 6px;
+}
+.main-content header.meta .author a {
+  font-weight: bold;
+}
+.main-content header.meta .source {
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  font-size: 11px;
+}
+.main-content header.meta p {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 8px;
 }

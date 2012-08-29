@@ -9,7 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 @orange: #cc6600;
 @black: #202020;
-@grey: #666;
+@gray: #666;
 
 // mixins
 #gradient {
@@ -50,6 +50,15 @@ p {
   margin-bottom:12px;
 }
 
+a {
+  color:@orange;
+  text-decoration:none;
+
+  &:hover {
+    color:lighten(@orange, 10%);
+  }
+}
+
 // general layout
 .container {
   width:90%;
@@ -57,6 +66,10 @@ p {
   margin:0 auto;
   padding:30px;
   background:#fff;
+}
+
+header.main {
+  margin-bottom:20px;
 }
 
 section.article {
@@ -76,5 +89,47 @@ section.article {
     width: 169px;
     right: 189px;
     margin-left: -100%;
+  }
+}
+
+// elements
+.breadcrumb {
+  margin:0 0 10px -5px;
+  font-size:@fontSize - 1px;
+
+  li {
+    display:inline;
+
+    a {
+      padding:3px 5px;
+    }
+  }
+}
+
+.main-content {
+  header.meta {
+    color:@gray;
+    border-bottom:1px dotted #333;
+    margin-bottom:6px;
+
+    .author {
+      a {
+        font-weight:bold;
+      }
+    }
+
+    .source {
+      text-transform:uppercase;
+      margin-bottom:3px;
+      font-size:@fontSize - 3px;
+    }
+
+    p {
+      font-size:@fontSize - 2px;
+      line-height:16px;
+      margin-bottom:8px;
+    }
+
+
   }
 }
