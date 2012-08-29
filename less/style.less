@@ -44,6 +44,7 @@ h1 {
   font-family:@serifFontFamily;
   font-size:@fontSize + 10;
   margin-bottom:12px;
+  line-height:28px;
 }
 
 p {
@@ -185,5 +186,36 @@ section.article {
     font-size:@fontSize - 3px;
     margin-bottom:10px;
     display:block;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width:auto;
+    padding:30px 15px;
+  }
+
+  section.article {
+    padding-left: 0;
+
+    .main-content, .sidebar {
+      float: none;
+      margin:0;
+      padding:0;
+      width:100%;
+    }
+
+    .sidebar {
+      right: auto;
+
+      img {
+        float:left;
+        margin:0 10px 10px 0;
+      }
+
+      .photo-credit {
+        text-align:left;
+      }
+    }
   }
 }

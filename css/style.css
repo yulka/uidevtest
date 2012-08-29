@@ -144,6 +144,7 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
   margin-bottom: 12px;
+  line-height: 28px;
 }
 p {
   margin-bottom: 12px;
@@ -270,4 +271,30 @@ section.article .sidebar {
   font-size: 11px;
   margin-bottom: 10px;
   display: block;
+}
+@media (max-width: 767px) {
+  .container {
+    width: auto;
+    padding: 30px 15px;
+  }
+  section.article {
+    padding-left: 0;
+  }
+  section.article .main-content,
+  section.article .sidebar {
+    float: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  section.article .sidebar {
+    right: auto;
+  }
+  section.article .sidebar img {
+    float: left;
+    margin: 0 10px 10px 0;
+  }
+  section.article .sidebar .photo-credit {
+    text-align: left;
+  }
 }
