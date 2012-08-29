@@ -210,3 +210,44 @@ section.article .sidebar {
   line-height: 16px;
   margin-bottom: 8px;
 }
+.main-content ul.actions {
+  margin: 0 0 10px -7px;
+  font-size: 11px;
+  line-height: 16px;
+  overflow: hidden;
+}
+.main-content ul.actions li {
+  display: block;
+  float: left;
+  border-right: 1px solid #000;
+  padding: 0 7px;
+}
+.main-content ul.actions li:last-child {
+  border: 0;
+}
+.main-content ul.actions li a {
+  color: #000000;
+  display: block;
+  float: left;
+  text-indent: 17px;
+  background-image: url("../images/sprites.gif");
+  background-repeat: no-repeat;
+}
+.main-content ul.actions li a.comment {
+  background-position: 0 -478px;
+}
+.main-content ul.actions li a.email {
+  background-position: 0 -253px;
+}
+.main-content ul.actions li a.print {
+  background-position: 0 -299px;
+}
+.main-content ul.actions li a.share {
+  background-position: 0 -344px;
+}
+.main-content ul.actions li a.larger-type {
+  background-position: 0 -388px;
+}
+.main-content ul.actions li a:hover {
+  color: #cc6600;
+}
