@@ -108,7 +108,7 @@ section.article {
 
 .main-content {
   header.meta {
-    color:@gray;
+    color:#444;
     border-bottom:1px dotted #333;
     margin-bottom:6px;
 
@@ -162,5 +162,28 @@ section.article {
         &:hover { color:@orange; }
       }
     }
+  }
+}
+
+.sidebar {
+  font-size:@fontSize - 2px;
+  line-height:14px;
+
+  .photo-credit {
+    color:@gray;
+    text-align:right;
+    padding-left:40px;
+    font-size:@fontSize - 4px;
+    line-height:15px;
+    margin-bottom:10px;
+  }
+
+  a.enlarge-photo {
+    text-transform:uppercase;
+    background:url("../images/sprites.gif") no-repeat 0 -389px;
+    padding-left:18px;
+    font-size:@fontSize - 3px;
+    margin-bottom:10px;
+    display:block;
   }
 }

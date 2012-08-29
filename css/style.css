@@ -193,7 +193,7 @@ section.article .sidebar {
   padding: 3px 5px;
 }
 .main-content header.meta {
-  color: #666666;
+  color: #444;
   border-bottom: 1px dotted #333;
   margin-bottom: 6px;
 }
@@ -250,4 +250,24 @@ section.article .sidebar {
 }
 .main-content ul.actions li a:hover {
   color: #cc6600;
+}
+.sidebar {
+  font-size: 12px;
+  line-height: 14px;
+}
+.sidebar .photo-credit {
+  color: #666666;
+  text-align: right;
+  padding-left: 40px;
+  font-size: 10px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+.sidebar a.enlarge-photo {
+  text-transform: uppercase;
+  background: url("../images/sprites.gif") no-repeat 0 -389px;
+  padding-left: 18px;
+  font-size: 11px;
+  margin-bottom: 10px;
+  display: block;
 }
