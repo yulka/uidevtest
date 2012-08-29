@@ -121,3 +121,54 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html {
+  height: 100%;
+  background: #fff;
+}
+body {
+  margin: 0;
+  font-family: Arial, "MS Trebuchet", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #e0e0e0;
+  background-image: -moz-linear-gradient(top, #cccccc, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cccccc), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #cccccc, #ffffff);
+  background-image: -o-linear-gradient(top, #cccccc, #ffffff);
+  background-image: linear-gradient(to bottom, #cccccc, #ffffff);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcccccc', endColorstr='#ffffffff', GradientType=0);
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+p {
+  margin-bottom: 12px;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+}
+section.article {
+  padding-left: 169px;
+}
+section.article .main-content,
+section.article .sidebar {
+  position: relative;
+  float: left;
+}
+section.article .main-content {
+  padding: 0 0 0 20px;
+  width: 100%;
+}
+section.article .sidebar {
+  width: 169px;
+  right: 189px;
+  margin-left: -100%;
+}

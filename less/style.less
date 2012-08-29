@@ -5,6 +5,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 @sansFontFamily: Arial,"MS Trebuchet",sans-serif;
 @serifFontFamily: Georgia,"Times New Roman",Times,serif;
 @fontSize: 14px;
+@textColor: #000;
 
 @orange: #cc6600;
 @black: #202020;
@@ -21,5 +22,59 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background-image: linear-gradient(to bottom, @startColor, @endColor); // Standard, IE10
     background-repeat: repeat-x;
     filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down
+  }
+}
+
+// universal
+html {
+  height: 100%;
+  background:#fff;
+}
+
+body {
+  margin:0;
+  font-family:@sansFontFamily;
+  font-size:@fontSize;
+  line-height: 18px;
+  color:@textColor;
+  #gradient > .vertical();
+}
+
+h1 {
+  font-family:@serifFontFamily;
+  font-size:@fontSize + 10;
+  margin-bottom:12px;
+}
+
+p {
+  margin-bottom:12px;
+}
+
+// general layout
+.container {
+  width:90%;
+  max-width:1200px;
+  margin:0 auto;
+  padding:30px;
+  background:#fff;
+}
+
+section.article {
+  padding-left: 169px;
+
+  .main-content, .sidebar {
+    position: relative;
+    float: left;
+  }
+
+  .main-content {
+    padding: 0 0 0 20px;
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 169px;
+    right: 189px;
+    margin-left: -100%;
   }
 }
