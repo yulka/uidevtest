@@ -246,8 +246,11 @@ section.article .sidebar {
 .main-content ul.actions li a.share {
   background-position: 0 -344px;
 }
-.main-content ul.actions li a.larger-type {
+.main-content ul.actions li a.larger {
   background-position: 0 -388px;
+}
+.main-content ul.actions li a.smaller {
+  background-position: 0 -433px;
 }
 .main-content ul.actions li a:hover {
   color: #cc6600;
