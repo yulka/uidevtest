@@ -190,6 +190,17 @@ section.article {
   }
 }
 
+@media (max-width: 480px) {
+  .container {
+    section.article {
+      .sidebar img {
+        float:none;
+        margin:0 0 10px 0;
+      }
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .container {
     width:auto;
@@ -208,6 +219,8 @@ section.article {
 
     .sidebar {
       right: auto;
+      overflow:hidden;
+      margin-bottom:20px;
 
       img {
         float:left;
@@ -216,6 +229,7 @@ section.article {
 
       .photo-credit {
         text-align:left;
+        padding-left:0;
       }
     }
   }

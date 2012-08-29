@@ -275,6 +275,12 @@ section.article .sidebar {
   margin-bottom: 10px;
   display: block;
 }
+@media (max-width: 480px) {
+  .container section.article .sidebar img {
+    float: none;
+    margin: 0 0 10px 0;
+  }
+}
 @media (max-width: 767px) {
   .container {
     width: auto;
@@ -292,6 +298,8 @@ section.article .sidebar {
   }
   section.article .sidebar {
     right: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
   }
   section.article .sidebar img {
     float: left;
@@ -299,5 +307,6 @@ section.article .sidebar {
   }
   section.article .sidebar .photo-credit {
     text-align: left;
+    padding-left: 0;
   }
 }
