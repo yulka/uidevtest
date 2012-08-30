@@ -1,0 +1,8 @@
+Hello,
+
+For this test I used HTML5, CSS3, LESS and media queries. I created a responsive design and positioned the main content of the article above the sidebar content (photo, caption, etc). In real world I would also minify css and compress js files.
+
+Feel free to contact me if you have any questions.
+
+Yulka Plekhanova
+yplekhanova@eldarion.com
