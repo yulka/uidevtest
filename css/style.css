@@ -162,6 +162,7 @@ a:hover {
   margin: 0 auto;
   padding: 30px;
   background: #fff;
+  overflow: hidden;
 }
 header.main {
   margin-bottom: 20px;
