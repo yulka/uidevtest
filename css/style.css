@@ -167,20 +167,15 @@ header.main {
   margin-bottom: 20px;
 }
 section.article {
-  padding-left: 169px;
-}
-section.article .main-content,
-section.article .sidebar {
-  position: relative;
   float: left;
-}
-section.article .main-content {
-  padding: 0 0 0 20px;
   width: 100%;
 }
-section.article .sidebar {
+section.article .main-content {
+  margin-left: 189px;
+}
+.sidebar {
+  float: left;
   width: 169px;
-  right: 189px;
   margin-left: -100%;
 }
 .breadcrumb {
@@ -275,8 +270,8 @@ section.article .sidebar {
   margin-bottom: 10px;
   display: block;
 }
-@media (max-width: 480px) {
-  .container section.article .sidebar img {
+@media (max-width: 320px) {
+  .container .sidebar img {
     float: none;
     margin: 0 0 10px 0;
   }
@@ -286,26 +281,21 @@ section.article .sidebar {
     width: auto;
     padding: 30px 15px;
   }
-  section.article {
-    padding-left: 0;
-  }
-  section.article .main-content,
-  section.article .sidebar {
-    float: none;
+  section.article .main-content {
     margin: 0;
-    padding: 0;
     width: 100%;
   }
-  section.article .sidebar {
-    right: auto;
+  .sidebar {
+    float: none;
+    width: 100%;
+    margin: 0 0 20px 0;
     overflow: hidden;
-    margin-bottom: 20px;
   }
-  section.article .sidebar img {
+  .sidebar img {
     float: left;
     margin: 0 10px 10px 0;
   }
-  section.article .sidebar .photo-credit {
+  .sidebar .photo-credit {
     text-align: left;
     padding-left: 0;
   }
